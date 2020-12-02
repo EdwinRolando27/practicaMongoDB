@@ -24,7 +24,7 @@ app.use(express.json());
 dbconection();
 //console.log(process.env);
 
-
+app.use(express.static('public'));
 //rutas del API
 
 
